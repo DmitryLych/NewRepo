@@ -11,6 +11,6 @@ public class HelloController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ResponseEntity hello()
     {
-        return ResponseEntity.ok().body("Hello feauture_2");
+        return ResponseEntity.ok().body("Hello feauture_2 stash");
     }
 }
